@@ -1,0 +1,72 @@
+body, html {
+    font-family: 'Montserrat:700', sans-serif;
+    height: 100%;
+    margin: 20;
+}
+
+.bg {
+    /* The image used */
+    background: url(../images/splashed.jpg) no-repeat center center fixed;
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.bg-lite {
+    /* The image used */
+    background: url(../images/splashed-wash.jpg) no-repeat center center fixed;
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cat-label {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 28px;
+}
+
+.front-label {
+  font-size: 35px;
+  padding-top:300px;
+}
+
+.top-buffer {
+  padding-top:50px;
+}
+
+.header-logo {
+    height: 90px;
+}
+
+.thumbnail-sm {
+    height: 150px;
+    display: table;
+}
+.thumbnail-sm img {
+    max-height: 100%;
+    max-width: 25%;
+}
+
+
+.thumbnail {
+    height: 250px;
+    display: table;
+}
+.thumbnail img {
+    max-height: 100%;
+    max-width: 25%;
+}

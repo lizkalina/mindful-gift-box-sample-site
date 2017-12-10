@@ -21,5 +21,9 @@ from . import views
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^$', TemplateView.as_view(template_name='index.html'))
+    url(r'^$', TemplateView.as_view(template_name='index.html')),
+    url(r'^giftbox/1', TemplateView.as_view(template_name='giftbox_detail.html')),
+    url(r'^products', TemplateView.as_view(template_name='products.html')),
+    url(r'^mission', TemplateView.as_view(template_name='mission.html')),
+    url(r'^cart', TemplateView.as_view(template_name='cart.html')),
 ]

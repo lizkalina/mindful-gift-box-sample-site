@@ -1,0 +1,29 @@
+{% extends "__base.html" %}
+{% load static %}
+
+
+{% block content %}
+<div class='top-buffer' id="main" role="main">
+
+  <div class="container">
+
+    <div class="row">
+      <div class="col-9"><br></div>
+      <div class="col-4"><img style="width:100%" src="{% static 'images/products/oil.jpg' %}" class="img-responsive" alt="oil"></div>
+      <div class="col-2">
+        <div class="row"><img class='thumbnail-sm' src="{% static 'images/products/soap.jpg' %}" class="img-responsive" alt="soap"></div>
+        <div class="row"><img class='thumbnail-sm' src="{% static 'images/products/spice.png' %}" class="img-responsive" alt="spice"></div>
+      </div>
+      <div class="col-2"></div>
+      <div class="col-4">
+        <h5>Oil & Spice Package</h5><br>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
+        <br>
+        <p class="text-right">
+        Add to Cart <i class="fa fa-cart-plus" aria-hidden="true"></i>
+      </p>
+      </div>
+
+    </div>
+</div>
+</div>
+{% endblock %}

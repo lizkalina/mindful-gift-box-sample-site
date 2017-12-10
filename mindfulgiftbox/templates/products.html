@@ -1,0 +1,38 @@
+{% extends "__base.html" %}
+{% load static %}
+
+
+{% block content %}
+<div class='bg-lite'>
+<div class='top-buffer' id="main" role="main">
+
+    <div class="container">
+
+    <div class="row">
+    <div class="col-md-3">
+    <p class="cat-label text-left">Birthday</p>
+    <img class="thumbnail" src="{% static 'images/Birthday_sq.jpg' %}" alt="birthday"/>
+    </div>
+    <div class="col-md-3">
+    <p class="cat-label text-left">Baby</p>
+    <img class="thumbnail" src="{% static 'images/Baby_sq.jpg' %}" alt="baby"/>
+    </div>
+    <div class="col-md-3">
+    <p class="cat-label text-left">Wedding</p>
+    <img class="thumbnail" src="{% static 'images/Wedding_congrats_sq.jpg' %}" alt="wedding"/>
+    </div>
+    <div class="col-md-3">
+    <p class="cat-label text-left">Get Well</p>
+    <img class="thumbnail" src="{% static 'images/Get_well_soon_sq.jpg' %}" alt="get-well-soon"/>
+    </div>
+    </div>
+    <div class="row">
+    <div class="col-md-12">
+    <p href='#' class="cat-label top-buffer underline text-center">Or Customize Your Own</p>
+    </div>
+    </div>
+
+</div>
+</div>
+</div>
+{% endblock %}
