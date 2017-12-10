@@ -26,4 +26,5 @@ urlpatterns = [
     url(r'^products', TemplateView.as_view(template_name='products.html')),
     url(r'^mission', TemplateView.as_view(template_name='mission.html')),
     url(r'^cart', TemplateView.as_view(template_name='cart.html')),
+    url(r'^contact', TemplateView.as_view(template_name='contact.html')),
 ]
